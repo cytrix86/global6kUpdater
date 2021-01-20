@@ -14,19 +14,19 @@ If you don't have homebrew installed follow the [Homebrew Installation Guide](ht
 
 ### Installation
 ```
-$ brew tap cytrix86/homebrew-tap
-$ brew install global6kupdater
+brew tap cytrix86/homebrew-tap
+brew install global6kupdater
 ```
 
 ## Usage
 
 The required flags are:
--s  Path to the Source floder containing the .exe files to be processed.
-    Note: All exe files in this folder will be processed.
+-s  Path to the Source floder containing the .exe files to be processed. <br />
+    <span style="color:red">Note: All exe files in this folder will be processed.</span>
 
--d Path to destination Folder / Volume 
-    Note: All files at the destination will be erased.
+-d Path to destination Folder / Volume <br />
+    <span style="color:red">Note: All files at the destination will be erased.</span>
 
 ```
-$ globalupdater -s ~/Downloads/FilesToProcess -d /Volumes/MemoryStick
+globalupdater -s ~/Downloads/FilesToProcess -d /Volumes/MemoryStick
 ```
