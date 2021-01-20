@@ -27,6 +27,6 @@ The required flags are:
 -d Path to destination Folder / Volume 
     Note: All files at the destination will be erased.
 
-````
+```
 $ globalupdater -s ~/Downloads/FilesToProcess -d /Volumes/MemoryStick
 ```
